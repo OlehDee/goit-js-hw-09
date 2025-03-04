@@ -15,7 +15,7 @@
 @import url('./vite-promo.css');
 @import url('./badges.css');
 @import url('./back-link.css');
-@import url('./footer.css');
+
 
 .gallery {
   width: 1440px;
@@ -60,3 +60,44 @@
 
 }
 
+.feedback-form{
+  display: flex;
+  flex-direction: column;
+  margin: 200px auto;
+  width: 300px;
+  gap: 10px;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.feedback-form input:hover,
+.feedback-form textarea:hover, .feedback-form input:active,
+.feedback-form textarea:active, .feedback-form input:focus,
+.feedback-form textarea:focus {
+ 
+  outline: none;
+  border: 1px solid black;
+  
+}
+ 
+
+.feedback-form button {
+  background-color: #4E75FF;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 95px;
+}
+
+.feedback-form button:hover {
+  background-color: #6C8CFF;
+}
+ 
