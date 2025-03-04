@@ -97,6 +97,13 @@ const lightbox = new SimpleLightbox('.gallery a', {
   captionDelay: 250,    
 });
 
+lightbox.on('shown.simplelightbox', () => {
+  document.querySelector('.sl-overlay').style.backgroundColor = 'rgba(46, 47, 66, 0.8)'; 
+});
+
+
+
+
 
 
 
